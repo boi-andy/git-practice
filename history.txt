@@ -1,0 +1,89 @@
+   11  git config --global user.name “Andy Nelson”
+   12  git config --global user.name “Andy Nelson”
+   13  git config --global user.email “andynelson29@gmail.com”
+   14  git config --global core.editor “code --wait"\ngit config --global init.defaultBranch main\n\nq\nexit\n'\n"
+   15  git config --global init.defaultBranch main
+   17  git --version
+   18  git config --global use.name "Andy Nelson\n'\nexit\n"
+   19  git config --global use.name "Andy Nelson"
+   20  git config --global user.email "nelsom29@byu.edu"
+   21  git config --global core.editor "code --wait"
+   22  git config --global init.defaultBranch main
+   25  git config --global user.email "andynelson29@gmail.com"
+   26  git_practice % git branch
+   35  git --global --list
+   36  git --version
+   37  git config --global use.name "Andy Nelson"
+   38  git config --global user.email "andynelson29@gmail.com"
+   39  git config --global core.editor "code --wait"
+   40  git config --global init.defaultBranch main
+   41  git --global --list
+   42  git --help
+   43  git config --global --list
+   72  cd git_practice
+   78  cd git_practice
+   80  git init
+   82  git status
+   85  git status
+   86  git add file_1.txt file_2.txt
+   87  git status
+   88  git commit -m "create new files"
+   89  git status
+   90  git log
+   93  git status
+   94  git add file_1.txt
+   95  git status
+   96  git commit -m
+   97  git commit -m "file_1.txt"
+   98  git add file_2.txt
+   99  git commit -m "file_2.txt"
+  100  git log
+  104  git add Readme.md
+  105  git commit -m "Add Readme.md"
+  106  echo "api-keys.txt" > .gitignore
+  107  git status
+  108  git add .gitignore
+  109  git commit -m "Add .gitignore file"
+  111  git status
+  113  git branch features
+  114  git checkout features
+  115  git log
+  117  git add new_features.txt
+  118  git commit -m "Add empty file"
+  120  git commit -am "Add content to new_features.txt"
+  121  git checkout main
+  124  git commit -am"This is a line in file_1.txt"
+  125  git merge features
+  126  git commit -am "This is a line in file_1.txt"
+  127  git merge features
+  128  git status
+  130  git log
+  133  cd git_practice
+  134  git status
+  138  git add new_features.txt
+  139  git commit -m "Update new_features.txt on main branch"
+  140  git checkout features
+  142  git add new_features.txt
+  143  git commit -m "Update new_features.txt on features branch"
+  144  git checkout main
+  145  git merge features
+  147  git commit -m "Merge branch 'features' into main"
+  149  git status
+  150  git add new_features.txt
+  151  git status
+  152  git commit -m "Merge branch 'features' into main"
+  153  git branch -d features
+  155  git remote add orgin git@github.com:boi-andy/git-practice-boi-andy.git
+  156  git push -u origin main
+  157  git remote add origin git@github.com:boi-andy/git-practice-boi-andy.git
+  158  git push -u origin main
+  164  git clone git@github.com:boi-andy/git-practice-sfolkman4.git
+  165  cd git-practice-sfolkman4
+  167  git checkout -b feature-boi-andy
+  173  git add Verdansk.txt
+  174  git commit -m "this is my sick new feature"
+  175  git push origin feature-boi-andy
+  183  cd git-practice
+  185  cd git_practice
+  186  git pull 
+  187  git log --oneline > gitlog.txt

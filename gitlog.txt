@@ -1,0 +1,14 @@
+cc1fc3b Merge pull request #1 from sfolkman4/feature-sfolkman4
+f6ee4e6 Secret message for my BFF
+f89f3ea Merge branch 'features' into main
+c6c895c Update new_features.txt on features branch
+57c263f Update new_features.txt on main branch
+d980881 This is a line in file_1.txt
+b1ee732 This is a line in file_1.txt
+11fdb21 Add content to new_features.txt
+7f5d54a Add empty file
+d21adcc Add .gitignore file
+60ce348 Add Readme.md
+807441f file_2.txt
+4002a28 file_1.txt
+4d711cc create new files
